@@ -18,8 +18,8 @@ import * as React from 'react';
 
 function App() {
  
-  const phoneNumber = "+919999835288";  
-  const whatsappNumber = "+919999835288";  
+  const phoneNumber = "+919873025200";  
+  const whatsappNumber = "+919873025200";  
   const bookingEngineUrl = "https://www.asiatech.in/booking_engine/index3.php?token=MTY="; 
 
   return (
