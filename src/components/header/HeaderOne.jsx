@@ -5,6 +5,7 @@ import LoginForm from '../form/LoginForm';
 import SignUpForm from '../form/SignUpForm';
 import BookingModal from './BookingModal';
 import GuestExperience from './../GuestExperience/GuestExperience';
+import Gallery from './../../pages/Gallery';
  
 
 function HeaderOne() {
@@ -251,22 +252,22 @@ function HeaderOne() {
                                                 </Link>
                                             </li> */}
 
-                                               <li className="navigation__menu--item has-child  ">
-                                        {/* Button for Mice with a click event to toggle submenu */}
+                                               {/* <li className="navigation__menu--item has-child  ">
+                                        
                                         <button
                                             className="navigation__menu--item__link theme-btn btn-style sm-btn fill has-arrow"
                                             onClick={toggleDropdown}
                                         >
                                             <span>MICE</span>
 
-                                            {/* Icon inside the button */}
+                                            
                                             <span className="dropdown-icon">
-                                            {/* Replace with your desired icon */}
+                                            
                                             <i className={`arrow-icon ${isOpen ? 'open' : ''}`}></i>
                                             </span>
                                         </button>
 
-                                        {/* Submenu that shows when isOpen is true */}
+                                         
                                         {isOpen && (
                                             <ul className="submenu sub__style" role="menu">
                                             <li role="menuitem">
@@ -280,13 +281,22 @@ function HeaderOne() {
                                             </li>
                                             </ul>
                                         )}
-                                        </li>
+                                        </li> */}
                                             {/* <li className="navigation__menu--item">
                                                 <Link
                                                     to="/event"
                                                     className="navigation__menu--item__link"
                                                 >
                                                     Mice
+                                                </Link>
+                                            </li> */}
+
+                                             {/* <li className="navigation__menu--item">
+                                                <Link
+                                                    to="/gallery"
+                                                    className="navigation__menu--item__link theme-btn btn-style sm-btn fill"
+                                                >
+                                                    <span>About Us</span>  
                                                 </Link>
                                             </li> */}
 
@@ -333,21 +343,30 @@ function HeaderOne() {
                                                 </Link>
                                             </li> */}
 
-                                             <li className="navigation__menu--item">
+                                             {/* <li className="navigation__menu--item">
                                                 <Link
                                                     to="/wedding"
                                                     className="navigation__menu--item__link theme-btn btn-style sm-btn fill"
                                                 >
                                                     <span>Wedding</span> 
                                                 </Link>
-                                            </li>
+                                            </li> */}
 
-                                             <li className="navigation__menu--item">
+                                             {/* <li className="navigation__menu--item">
                                                 <Link
                                                     to="/offer"
                                                     className="navigation__menu--item__link theme-btn btn-style sm-btn fill"
                                                 >
                                                     <span>Offers</span>  
+                                                </Link>
+                                            </li> */}
+
+                                             <li className="navigation__menu--item">
+                                                <Link
+                                                    to="/gallery"
+                                                    className="navigation__menu--item__link theme-btn btn-style sm-btn fill"
+                                                >
+                                                    <span>Gallery</span>  
                                                 </Link>
                                             </li>
 

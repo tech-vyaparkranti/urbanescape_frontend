@@ -16,6 +16,25 @@ import HomeRoom from '../components/room-details/HomeRoom'
 import BookingModal from '../components/header/BookingModal'
 import AwardsSection from '../components/award/AwardsSection';
 import GuestReviewHome from '../components/GuestExperience/GuestReviewHome';
+import BannerOne from '../components/banner/BannerOne';
+import BannerThree from '../components/banner/BannerThree';
+import BannerFour from '../components/banner/BannerFour';
+import BannerFive from '../components/banner/BannerFive';
+import BannerSix from '../components/banner/BannerSix';
+import BannerSeven from '../components/banner/BannerSeven';
+import AboutOne from '../components/about/AboutOne';
+import AboutThree from '../components/about/AboutThree';
+import AboutFour from '../components/about/AboutFour';
+import AboutFive from '../components/about/AboutFive';
+import AboutSix from '../components/about/AboutSix';
+import AboutSeven from '../components/about/AboutSeven';
+import TestimonialOne from '../components/testimonials/TestimonialOne';
+import TestimonialThree from '../components/testimonials/TestimonialThree';
+import TestimonialFour from '../components/testimonials/TestimonialFour';
+import TestimonialFive from '../components/testimonials/TestimonialFive';
+import BlogOne from '../components/blog/BlogOne';
+import BlogTwo from '../components/blog/BlogTwo';
+import BlogThree from '../components/blog/BlogThree';
  
  
  
@@ -47,19 +66,21 @@ function HomeTwo() {
         <HeaderOne />
         <BannerTwo />
         <AdvanceForm />
-        <AboutTwo />
+        <AboutOne />
         <FacilitiesTwo />
         <RoomTwo posts={posts}/>
         {/* <HomeRoom /> */}
          
         
-        <TestimonialTwo />
+        <TestimonialFive />
         <GuestReviewHome />
         <VideoTwo />
-        <OfferTwo />
+        {/* <OfferTwo /> */}
         <GalleryTwo limit={4} />
         {/* <BookingModal show={showBookingModal} handleClose={handleCloseBooking} /> */}
         <BookingModal show={showModal} handleClose={setShowModal} autoShowTime={20000} />
+         
+        <BlogTwo />
         <AwardsSection />
         <FooterOne />
     </div>

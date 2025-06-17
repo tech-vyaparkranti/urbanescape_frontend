@@ -311,7 +311,7 @@ function FooterOne() {
                   {/* <li><Link to="/termscondition">Terms & Conditions</Link></li> */}
                   {/* <li><Link to="/privacy">Privacy Policy</Link></li> */}
                   {/* <li><Link to="/refund">Refund Cancellation Policy</Link></li> */}
-                  <li><Link to="/service" style={{ color: 'white',  }}>Our Service</Link></li>
+                  {/* <li><Link to="/service" style={{ color: 'white',  }}>Our Service</Link></li> */}
                   <li><Link to="/resturant" style={{ color: 'white',   }}>Restaurant</Link></li>
                 </ul>
               </div>

@@ -53,7 +53,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                         <div className="offcanvase__top">
                             <div className="offcanvase__logo">
                                 <Link to="/">
-                                    <img src="/assets/images/logo/dynastylogo.png" alt="logo"  style={{ height: '100px', padding: '10px', objectFit: 'contain' }} />
+                                    <img src="/assets/images/logo/urbanLogo.png" alt="logo"  style={{ height: '100px', padding: '10px', objectFit: 'contain' }} />
                                 </Link>
                             </div>
                             <p className="description">
@@ -115,7 +115,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                             <Link className="slide__menu__item" to="/event">Mice</Link>
                                         </li> */}
 
-                                         <li className={`slide has__children ${activeMenu === 4 ? "active" : ""}`}>
+                                         {/* <li className={`slide has__children ${activeMenu === 4 ? "active" : ""}`}>
                                             <Link className="slide__menu__item" to="#" onClick={() => toggleMenu(4)}>
                                                 Mice
                                                 <span className="toggle" />
@@ -124,30 +124,29 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                 <li><Link to="/mice-business">Business Conference</Link></li>
                                                 <li><Link to="/mice-wedding">Wedding</Link></li>
                                                 <li><Link to="/mice-sastang">Satsang</Link></li>
-                                                {/* <li><Link to="/event">Event</Link></li>
-                                                <li><Link to="/activities">Activities</Link></li> */}
+                                                 
                                             </ul>
-                                        </li>
+                                        </li> */}
 
                                           <li className="slide">
                                             <Link className="slide__menu__item" to="/package">Packages</Link>
                                         </li>
 
-                                          <li className="slide">
+                                          {/* <li className="slide">
                                             <Link className="slide__menu__item" to="/guestexperience">Guest</Link>
-                                        </li>
+                                        </li> */}
 
                                           <li className="slide">
                                             <Link className="slide__menu__item" to="/gallery">Gallery</Link>
                                         </li>
 
-                                         <li className="slide">
+                                         {/* <li className="slide">
                                             <Link className="slide__menu__item" to="/wedding">Wedding</Link>
-                                        </li>
+                                        </li> */}
 
-                                         <li className="slide">
+                                         {/* <li className="slide">
                                             <Link className="slide__menu__item" to="/offer">Offers</Link>
-                                        </li>
+                                        </li> */}
                                          
 
                                         {/* Blog Menu */}

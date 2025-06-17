@@ -118,7 +118,7 @@
 <p style={{textalign: 'justify'}}>We reserve the right, at our sole discretion, to update, change or replace any part of these Terms of Service by posting updates and changes to our website. It is your responsibility to check our website periodically for changes. Your continued use of or access to our website or the Service following the posting of any changes to these Terms of Service constitutes acceptance of those changes.</p>
 
 <h3>SECTION 20 - CONTACT INFORMATION</h3>
-<p style={{textalign: 'justify'}}>Questions about the Terms of Service should be sent to us at <a href="mailto:info@dynastyresort.com">info@dynastyresort.com</a>.</p>
+<p style={{textalign: 'justify'}}>Questions about the Terms of Service should be sent to us at <a href="mailto:the.urban.escape2024@gmail.com">the.urban.escape2024@gmail.com</a>.</p>
 
 
              </div>

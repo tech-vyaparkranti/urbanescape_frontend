@@ -35,7 +35,7 @@ function TestimonialFive() {
   }, []);
 
   return (
-    <div className="rts__section testimonial has__shape is__home__four section__padding">
+    <div className="rts__section testimonial has__shape is__home__four " style={{paddingTop: '30px', paddingBottom: '30px'}}>
       <div className="section__shape">
         <img src="/assets/images/about/section__shape.svg" alt="" />
       </div>

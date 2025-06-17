@@ -32,7 +32,7 @@ const Privacy = () => {
                 How do I withdraw my consent?
                 If after you opt-in, you change your mind, you may withdraw your consent for us to contact you,
                 for the continued collection, use or disclosure of your information, at anytime, by contacting us
-                at info@dynastyresort.com or mailing us at: 252/A, Shahpur Jat, Near Hauz Khas, New
+                at the.urban.escape2024@gmail.com or mailing us at: 252/A, Shahpur Jat, Near Hauz Khas, New
                 Delhi - 110049
                 </p>
                 <p> 
@@ -105,7 +105,7 @@ const Privacy = () => {
                 QUESTIONS AND CONTACT INFORMATION
                 If you would like to: access, correct, amend or delete any personal information we have about
                 you, register a complaint, or simply want more information contact our Privacy Compliance
-                Officer at info@dynastyresort.com or mailing us at: 252/A, Shahpur Jat, Near Hauz Khas,
+                Officer at the.urban.escape2024@gmail.com or mailing us at: 252/A, Shahpur Jat, Near Hauz Khas,
                 New Delhi - 110049
                 </p></p>
               </div>

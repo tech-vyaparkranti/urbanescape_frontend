@@ -368,7 +368,7 @@ function ContactOne() {
 
         {/* contact address */}
 
-        <ContactAddress />
+        {/* <ContactAddress /> */}
 
         {/* contact address */}
         {/* bank details */}
